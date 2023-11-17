@@ -29,10 +29,10 @@ jobs:
           pytest --junitxml=pytest-report.xml
           # Add other test options or commands as needed
 
-          - name: Print Current Directory and Files
-  run: |
-    pwd
-    ls -R
+      - name: Print Current Directory and Files
+        run: |
+          pwd
+          ls -R
 
 
       - name: Upload Test Reports
