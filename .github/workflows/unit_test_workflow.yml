@@ -23,7 +23,9 @@ jobs:
           python -m pip install pytest
 
       - name: Run Unit Tests
-        run: pytest
+        run: |
+        pytest --junitxml=pytest-report.xml
+        
 
       - name: Upload Test Reports
         uses: actions/upload-artifact@v2
