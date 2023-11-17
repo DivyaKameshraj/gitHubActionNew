@@ -23,8 +23,8 @@ jobs:
           python -m pip install pytest
 
       - name: Run Unit Tests
-        run: |
-        pytest --junitxml=pytest-report.xml
+        run: pytest
+         
         
 
       - name: Upload Test Reports
