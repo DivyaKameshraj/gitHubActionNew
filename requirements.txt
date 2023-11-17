@@ -1,4 +1,5 @@
 # requirements.txt
 flask==2.0.1  # or the version you need
+werkzeug==2.0.1  # or the version compatible with Flask 2.0.1
 pytest==6.2.5
 # Add other dependencies as needed
